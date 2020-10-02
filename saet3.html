@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Set the label - Kombination af en løs t-shirt og tilhørende shorts. Komfortabelt sæt der både kan styles op og ned">
+    <link rel="icon" href="images/favicon.gif">
+    <link rel="stylesheet" href="https://use.typekit.net/lze4knk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vhe8uzj.css">
+    <title>Sæt 3</title>
+</head>
+
+
+
+
+
+<body>
+    <div class="levering">
+        <p>HURTIG LEVERING: 2-5 HVERDAGE* 39KR. GRATIS RETUR</p>
+    </div>
+    <header>
+        <nav>
+            <div id="logo-burger">
+                <a href="index.html"><img class="logo" src="images/stl-logo.gif" width="100" alt="Set The Label logo"></a>
+                <label for="toggle">&#9776;</label>
+            </div>
+            <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+            <input type="checkbox" id="toggle" class="hidden">
+
+            <div id="main-nav">
+                <div class="menupunkter">
+                    <a href="index.html#alle-saet">SHOP</a>
+                    <a href="univers.html">UNIVERS</a>
+                    <div id="kontakt-streg"> <a href="kontakt.html">KONTAKT</a> </div>
+                </div>
+                <div class="tekst-ikoner"><a href="#">MIN SIDE</a>
+                    <a href="#">KURV</a>
+                    <a href="#">SØG</a>
+                </div>
+                <div class="nav-ikoner">
+
+                    <a href="#"><img src="images/kontakt.gif" alt="Kontaktfelt"></a>
+                    <a href="#"><img src="images/kurv.gif" alt="Indkøbskurv"></a>
+                    <a href="#"><img src="images/soege.gif" alt="Søgefelt"></a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+
+
+        <div id="product-wrapper">
+
+
+            <div id="multi-flex" class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/tre-front.png" alt="Sæt 3 front" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/tre-frontto.gif" alt="Sæt 3 front to" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/tre-side.gif" alt="Sæt 3 side" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/tre-sit.gif" alt="Sæt 3 sit" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div id="description-flex">
+
+                <h2>SÆT 3</h2>
+                <div id="about-heading">
+                    <h3>DKK 795 </h3>
+                    <p class="moms">inkl. moms</p>
+
+                    <div class="top-text">
+                        <div class="button-flex">
+                            <div class="dropdown">
+                                <button class="dropbtn">Str. over &nbsp; &nbsp; ∨</button>
+                                <div class="dropdown-content">
+                                    <p>S</p>
+                                    <p>M</p>
+                                    <p>L</p>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Str. bund &nbsp; &nbsp; ∨</button>
+                                <div class="dropdown-content">
+                                    <p>S</p>
+                                    <p>M</p>
+                                    <p>L</p>
+                                </div>
+                            </div>
+
+                            <button class="dropbtn">Tilføj til kurv</button>
+
+                        </div>
+
+
+
+
+
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn" class="button">Størrelsesguide</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2 class="tekst1">Find din rette størrelse</h2>
+                                <p class="tekst1">Problemer med at finde den rette størrelse? Indtast dine oplysninger, og find den rette størrelse. </p>
+
+                                <div class="str-container">
+                                    <div class="str-img-container">
+                                        <img class="dialogboks-billede" src="images/tre-front.png" alt="Sæt 1 forfra">
+
+                                    </div>
+
+                                    <div class="dialog-indhold">
+                                        <h3 class="h-saet">Din højde og vægt:</h3>
+
+                                        <div class="formelementer">
+                                            <label for="vaegt" class="etiket">Vægt i kilo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="number" class="indtastningsfelt" id="vaegt" step="0.5">
+                                        </div> <br>
+
+                                        <div class="formelementer">
+                                            <label for="hoejde" class="etiket">Højde i meter: &nbsp;&nbsp; &nbsp;&nbsp;</label>
+                                            <input type="number" class="indtastningsfelt" step="0.01" id="hoejde">
+                                        </div> <br>
+
+                                        <div class="formelementer">
+
+                                            <label for="kropsform" class="etiket">Kropstype &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="text" class="indtastningsfelt" id="kropsform" placeholder="Tryk på din kropstype..">
+                                        </div> <br>
+
+                                        <form id="curve" class="figur">
+
+                                            <img src="images/size-smal.gif" alt="ikon 1" class="figur-smal" height="80px" name="kropstype" value="Smal" checked id="smal"><br>
+
+                                            <img src="images/size-alm.gif" alt="ikon 2" class="figur-normal" height="90px" name="kropstype" value="Almindelig" id="almindelig"><br>
+
+                                            <img src="images/size-stor.gif" alt="ikon 3" class="figur-stor" height="85px" name="kropstype" value="Stor" id="stor">
+                                        </form> <br>
+                                        <div>
+
+                                            <button type="button" id="beregn" class="knap">Find din størrelse</button>
+                                        </div> <br>
+
+                                        <div id="vurdering" class="vurderings_felt">Din idelle størrelse er:</div>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <button class="collapsible">Beskrivelse</button>
+                <div class="content">
+
+                    <p>
+                        Kombination af en løs t-shirt og tilhørende shorts
+                        <br>Todelt sæt i 100% bomuld
+                        <br>
+                        Find skylingtips under univers</p>
+                </div>
+                <hr>
+                <button class="collapsible">Pasform</button>
+                <div class="content">
+
+                    <p>Modellen er 173 høj og bærer en S i overdel og en S i underdel</p>
+
+                </div>
+                <hr>
+                <button class="collapsible">Levering</button>
+                <div class="content">
+
+                    <p>Standard levering 39 kr. 2-5 hverdage - Gratis retur </p>
+
+
+                </div>
+                <hr>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+
+        <div class="flex-footer-1">
+
+            <div>
+                <h2>Mine sider</h2>
+
+
+                <h3> Mine bestillinger </h3>
+                <h3> Min profil </h3>
+
+            </div>
+
+            <div>
+                <h2>Set the Label</h2>
+
+
+                <h3>Om Set the Label</h3>
+                <a class="univers-footer" href="univers.html">
+                    <h3>Univers</h3>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="flex-footer-2">
+
+            <h2>Hold dig opdateret her</h2>
+
+            <div class="sociale-medier-1">
+                <a href="https://www.instagram.com/setthelabel/"><img class="ikoni" src="images/instagram.gif" alt="Instagram - Set the label"></a>
+                <a href="https://vm.tiktok.com/wUkRCe/"><img class="ikontt" src="images/tiktok-ikon.gif" alt="TikTok - Set the label"></a>
+            </div>
+            <div class="sociale-medier-2">
+                <h3 class="footer-insta">Instagram</h3>
+                <h3 class="footer-tiktok">TikTok</h3>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js">
+    </script>
+
+</body>
+
+</html>
